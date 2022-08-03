@@ -1,0 +1,219 @@
+/*=== google font file input start ===*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+/*=== google font file input end ===*/
+
+/*=== common css start ===*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #F2F3F7;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/*=== common css end ===*/
+
+/*=== contact information css start ===*/
+.contact-us-section {
+    padding: 60px 0;
+}
+
+.contact-us-section .contact-info {
+    background: #FFF;
+    padding: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us-section .contact-info .contact-us h4 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #444;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #fd6e4f96;
+}
+
+.contact-us-section .contact-info .contact .form-check-label {
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.contact-us-section .contact-info .contact label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+
+.contact-us-section .contact-info .contact input {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #4a5068;
+    border: 1px solid #ddd;
+}
+
+.contact-us-section .contact-info #send-message {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+    border: 1px solid #ddd;
+}
+
+.contact-us-section .contact-info .btn {
+    background: #03233a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+.contact-us-section .contact-info .btn:hover {
+    background: #fd6e4f;
+    transition: all .3s linear;
+}
+
+.contact-us-section .contact-info .btn:active {
+    background: #03233a;
+    color: #fff;
+    border: 1px solid #fd6e4f;
+}
+.contact-us-section .contact-address {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.contact-us-section .contact-address .help-center {
+    padding-bottom: 20px;
+}
+
+.contact-us-section .contact-address .help-center .title h4 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #444;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.contact-us-section .contact-address .help-center .info span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.contact-us-section .contact-address .help-center .info span a {
+    font-size: 14px;
+    color: #333;
+    margin-left: 8px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.contact-us-section .contact-address .dhaka-office {
+    padding-bottom: 20px;
+}
+
+.contact-us-section .contact-address .dhaka-office .title h4 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #444;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.contact-us-section .contact-address .dhaka-office .info p {
+    margin: 0px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.contact-us-section .contact-address .dhaka-office .info span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.contact-us-section .contact-address .dhaka-office .info span a {
+    font-size: 14px;
+    color: #333;
+    margin-left: 8px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.contact-us-section .contact-address .chittagong-office {}
+
+.contact-us-section .contact-address .chittagong-office .title h4 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #444;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.contact-us-section .contact-address .chittagong-office .info p {
+    margin: 0px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.contact-us-section .contact-address .chittagong-office .info span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.contact-us-section .contact-address .chittagong-office .info span a {
+    font-size: 14px;
+    color: #333;
+    margin-left: 8px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+
+
+
+
+
+/*=== contact information css end ===*/

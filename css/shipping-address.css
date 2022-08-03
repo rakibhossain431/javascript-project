@@ -1,0 +1,376 @@
+/* google fonts input */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+/* google fonts input end */
+
+/* common css section start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #F2F3F7;
+  }
+
+a{
+      text-decoration: none;
+  }
+
+a:hover{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+/* common css section end */
+
+
+#shipping-address{}
+#shipping-address .shipping-address-section{}
+#shipping-address .shipping-address-section .shipping-address h4 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #444;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #fd6e4f96;
+}
+.shipping-address {
+    background: #FFF;
+    padding: 25px 20px;
+    margin: 80px 0;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+.shipping-address hr {
+    background: #fd6e4f82;
+}
+.shipping-address .first-name label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+.shipping-address .first-name input {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #333;
+    border: 1px solid #ddd;
+}
+.shipping-address .last-name label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+.shipping-address .last-name input {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #333;
+    border: 1px solid #ddd;
+}
+.shipping-address .username{
+    margin-top: 15px;
+}
+.shipping-address .username label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+.shipping-address .username input {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #333;
+    border: 1px solid #ddd;
+}
+.shipping-address .email{
+    padding-top: 15px;
+}
+.shipping-address .email label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+.shipping-address .email input {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #333;
+    border: 1px solid #ddd;
+}
+.shipping-address .address{
+    padding-top: 15px;
+}
+.shipping-address .address label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+.shipping-address .address input {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #333;
+    border: 1px solid #ddd;
+}
+.shipping-address .select-cuntry{
+    padding-top: 15px;
+}
+.shipping-address .select-cuntry label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+.shipping-address .select-division{
+    padding-top: 15px;
+}
+.shipping-address .select-division label{
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+.shipping-address .custom-checkbox label {
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+.shipping-address .payment-option{}
+.shipping-address .payment-option label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    margin: 0px;
+}
+.shipping-address .name-card {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.shipping-address .name-card input {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #444;
+    border: 1px solid #ddd;
+}
+.shipping-address .name-card label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+.shipping-address .expiration label{
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+.shipping-address .expiration input {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #333;
+    border: 1px solid #ddd;
+}
+.shipping-address .cvv label{
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+.shipping-address .cvv input {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #333;
+    border: 1px solid #ddd;
+}
+.shipping-address .btn {
+    background: #03233a;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+}
+.shipping-address .btn:hover{
+    background: #fd6e4f;
+    transition: all .3s linear;
+}
+#shipping-address .shipping-payment {
+    background: #FFF;
+    margin: 80px 0;
+    padding: 25px 10px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+#shipping-address .shipping-payment .your-cart {
+    padding-bottom: 40px;
+}
+#shipping-address .shipping-payment .your-cart h4 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #444;
+    text-transform: uppercase;
+}
+#shipping-address .shipping-payment .your-cart .badge {
+    background: #ddd;
+    color: #03233a;
+    float: right;
+}
+#shipping-address .shipping-payment .cart-list{}
+#shipping-address .shipping-payment .cart-list ul{}
+#shipping-address .shipping-payment .cart-list ul li {
+}
+#shipping-address .shipping-payment .cart-list ul li .product-name {
+    display: inline;
+}
+#shipping-address .shipping-payment .cart-list ul li .product-name span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    text-transform: capitalize;
+}
+#shipping-address .shipping-payment .cart-list ul li .product-cost{
+    float: right;
+}
+#shipping-address .shipping-payment .cart-list ul li .product-name small {
+    font-weight: 400;
+    font-size: 12px;
+    color: #333;
+    text-transform: capitalize;
+}
+#shipping-address .shipping-payment .cart-list ul li span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fd6e4f;
+}
+#shipping-address .shipping-payment .cart-list ul li .promo-code{
+    float: left;
+}
+#shipping-address .shipping-payment .cart-list ul li .promo-code span{
+    font-weight: 400;
+    font-size: 15px;
+    color: #fd6e4f;
+}
+#shipping-address .shipping-payment .cart-list ul li .promo-code small {
+    font-weight: 400;
+    font-size: 12px;
+    color: #03233a;
+}
+#shipping-address .shipping-payment .cart-list ul li .promo-code-off {
+    font-size: 16px;
+    font-weight: 500;
+    color: #03233a;
+}
+#shipping-address .shipping-payment .cart-list ul li .total-cost {
+    display: inline;
+}
+#shipping-address .shipping-payment .cart-list ul li .total-cost span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+}
+#shipping-address .shipping-payment .cart-list .promo-code-submit {
+    position: relative;
+    margin-top: 20px;
+}
+#shipping-address .shipping-payment .cart-list .promo-code-submit input {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    text-transform: capitalize;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+}
+#shipping-address .shipping-payment .cart-list .promo-code-submit button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #03233a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 7px 7px;
+    border: none;
+    cursor: pointer;
+}
+#shipping-address .shipping-payment .cart-list .promo-code-submit button:hover{
+    background: #fd6e4f;
+    transition: all .3s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

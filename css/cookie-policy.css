@@ -1,0 +1,114 @@
+/*=== google font file input start ===*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+/*=== google font file input end ===*/
+
+/*=== common css start ===*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #F2F3F7;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+/*=== common css end ===*/
+
+/*=== about section css start ===*/
+.cookie-policy-section{}
+.cookie-policy-section .cookie-policy-info {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.cookie-policy-section .cookie-policy-info .cookie-policy-menu-section {
+    border: 1px solid #fd5b4173;
+    height: 350px;
+}
+.cookie-policy-section .cookie-policy-info .cookie-policy-menu-section h5 {
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #444;
+    margin: 0px;
+    border-bottom: 2px solid #fd5b4173;
+    padding: 5px 10px;
+}
+.cookie-policy-section .cookie-policy-info .cookie-policy-menu-section .cookie-policy-menu {
+    margin: 0px;
+}
+.cookie-policy-section .cookie-policy-info .cookie-policy-menu-section .cookie-policy-menu li {
+    line-height: 28px;
+}
+.cookie-policy-section .cookie-policy-info .cookie-policy-menu-section .cookie-policy-menu li:hover {
+    background: #fd6e4fe6;
+    transition: all .3s linear;
+}
+.cookie-policy-section .cookie-policy-info .cookie-policy-menu-section .cookie-policy-menu li a {
+    font-weight: 400;
+    font-size: 15px;
+    color: #333;
+    margin: 0px;
+    text-transform: capitalize;
+    padding-left: 10px;
+    display: block;
+}
+.cookie-policy-section .cookie-policy-info .cookie-policy-menu-section .cookie-policy-menu li a:hover{
+    color: #fff;
+    transition: all .3s linear;
+}
+.cookie-policy-section .cookie-policy-info .about-description{}
+.cookie-policy-section .cookie-policy-info .cookie-policy-description h3 {
+    margin: 0px;
+    background: #fd6e4f;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.cookie-policy-section .cookie-policy-info .cookie-policy-description .cookie-policy-content p {
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+.cookie-policy-section .cookie-policy-info .cookie-policy-description .cookie-policy-content h4 {
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #444;
+    border-bottom: 2px solid #fd6e4f96;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+ .cookie-policy-description .cookie-policy-content .list {
+    margin: 0px;
+    padding-bottom: 5px;
+}
+ .cookie-policy-description .cookie-policy-content .list li{}
+ .cookie-policy-description .cookie-policy-content .list li .fa {
+    color: #f8a493;
+    font-size: 14px;
+}
+.cookie-policy-description .cookie-policy-content .list li span {
+    padding-left: 10px;
+}
+
+/*=== about section css end ===*/
